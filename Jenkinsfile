@@ -2,7 +2,7 @@ pipeline {
   agent any
 
   stages{
-    stage('Build){
+    stage('Build'){
           steps{
             sh 'python3 python1.py'
           }
